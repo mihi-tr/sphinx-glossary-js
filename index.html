@@ -1,0 +1,23 @@
+<html>
+
+<head>
+<link rel="stylesheet" href="sphinx-glossary.css">
+</head>
+
+<body>
+<script src="sphinx-glossary.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+<h1>Sphinx Glossary.js</h1>
+<p>A small javascript library to integrate glossary popups into sphinx html
+documents (and others)</p>
+<p>
+This is a test of glossary popup for term <span
+class="std-term">anonymisation</span> and term <span
+class="std-term">README</span></p>
+<script>
+$(document).ready(function() {
+SphinxGlossary.init("test/glossary.html",".std-term")
+})
+</script>
+</body>
+</html>
