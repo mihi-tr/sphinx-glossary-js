@@ -1,0 +1,19 @@
+<html>
+
+<head>
+<link rel="stylesheet" href="sphinx-glossary.css">
+</head>
+
+<body>
+<script src="sphinx-glossary.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+This is a test of glossary popup for term <span
+class="std-term">anonymisation</span> and term <span
+class="std-term">README</span>
+<script>
+$(document).ready(function() {
+SphinxGlossary.init("http://localhost:8000/glossary.html",".std-term")
+})
+</script>
+</body>
+</html>
